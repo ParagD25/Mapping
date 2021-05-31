@@ -1,0 +1,1839 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b09be54e97f440b4aa5ef5dd9de55aa0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_b09be54e97f440b4aa5ef5dd9de55aa0" ></div>
+        
+</body>
+<script>    
+    
+            var map_b09be54e97f440b4aa5ef5dd9de55aa0 = L.map(
+                "map_b09be54e97f440b4aa5ef5dd9de55aa0",
+                {
+                    center: [22.914377561511873, 79.65930938145928],
+                    crs: L.CRS.EPSG3857,
+                    maxBounds: [[-90, -180], [90, 180]],
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a00596fa3de84a509c9c0e30bab57506 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 2.5, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b09be54e97f440b4aa5ef5dd9de55aa0);
+        
+    
+            var feature_group_6b54c9a26719404abb03032a126a2ff6 = L.featureGroup(
+                {}
+            ).addTo(map_b09be54e97f440b4aa5ef5dd9de55aa0);
+        
+    
+            var marker_73b5790698ae4939bf17525bf7c7014c = L.marker(
+                [35.360625481685354, 138.7273631520154],
+                {}
+            ).addTo(feature_group_6b54c9a26719404abb03032a126a2ff6);
+        
+    
+            var icon_44cb2b9323a94d28a791d312c2b8a3b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_73b5790698ae4939bf17525bf7c7014c.setIcon(icon_44cb2b9323a94d28a791d312c2b8a3b0);
+        
+    
+        var popup_11c81c2afdbc4f73ae5920bc049b0133 = L.popup({"maxWidth": 100});
+
+        
+            var html_33094873808b401090d574ee466f0c8b = $(`<div id="html_33094873808b401090d574ee466f0c8b" style="width: 100.0%; height: 100.0%;"><img src = 'volcano.png' style='width:25px;height:25px;'> <u>3776 m</u></div>`)[0];
+            popup_11c81c2afdbc4f73ae5920bc049b0133.setContent(html_33094873808b401090d574ee466f0c8b);
+        
+
+        marker_73b5790698ae4939bf17525bf7c7014c.bindPopup(popup_11c81c2afdbc4f73ae5920bc049b0133)
+        ;
+
+        
+    
+    
+            marker_73b5790698ae4939bf17525bf7c7014c.bindTooltip(
+                `<div>
+                     <strong>Mount Fuji, Japan</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1d112cc39fac4144ade1fd59a0c92363 = L.marker(
+                [63.63040668923757, -19.60673461436549],
+                {}
+            ).addTo(feature_group_6b54c9a26719404abb03032a126a2ff6);
+        
+    
+            var icon_f587986c1205474c99c1b3fadb28034e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_1d112cc39fac4144ade1fd59a0c92363.setIcon(icon_f587986c1205474c99c1b3fadb28034e);
+        
+    
+        var popup_74f108e686324929aa9075c98dcecc35 = L.popup({"maxWidth": 100});
+
+        
+            var html_86117426e9c649f48865a70420310afb = $(`<div id="html_86117426e9c649f48865a70420310afb" style="width: 100.0%; height: 100.0%;"><img src = 'volcano.png' style='width:25px;height:25px;'> <u>1666 m</u></div>`)[0];
+            popup_74f108e686324929aa9075c98dcecc35.setContent(html_86117426e9c649f48865a70420310afb);
+        
+
+        marker_1d112cc39fac4144ade1fd59a0c92363.bindPopup(popup_74f108e686324929aa9075c98dcecc35)
+        ;
+
+        
+    
+    
+            marker_1d112cc39fac4144ade1fd59a0c92363.bindTooltip(
+                `<div>
+                     <strong>Eyjafjallajökull, Iceland</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_26a9fdc0949143088c55bffb81a67ffb = L.marker(
+                [19.47246144478291, -155.59229257502383],
+                {}
+            ).addTo(feature_group_6b54c9a26719404abb03032a126a2ff6);
+        
+    
+            var icon_be510b45f63d473592e23e5155de2a2c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_26a9fdc0949143088c55bffb81a67ffb.setIcon(icon_be510b45f63d473592e23e5155de2a2c);
+        
+    
+        var popup_5bb380405de449ccab2a454c973bd07d = L.popup({"maxWidth": 100});
+
+        
+            var html_ad01e4e640134a5c9675bbcc5f531012 = $(`<div id="html_ad01e4e640134a5c9675bbcc5f531012" style="width: 100.0%; height: 100.0%;"><img src = 'volcano.png' style='width:25px;height:25px;'> <u>4169 m</u></div>`)[0];
+            popup_5bb380405de449ccab2a454c973bd07d.setContent(html_ad01e4e640134a5c9675bbcc5f531012);
+        
+
+        marker_26a9fdc0949143088c55bffb81a67ffb.bindPopup(popup_5bb380405de449ccab2a454c973bd07d)
+        ;
+
+        
+    
+    
+            marker_26a9fdc0949143088c55bffb81a67ffb.bindTooltip(
+                `<div>
+                     <strong>Mauna Loa, Hawaii</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dd5041080b904098ab1d72f09401f9fc = L.marker(
+                [37.751789017910944, 14.994602671943335],
+                {}
+            ).addTo(feature_group_6b54c9a26719404abb03032a126a2ff6);
+        
+    
+            var icon_196a37c8f35244648e1c8721fe2931bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_dd5041080b904098ab1d72f09401f9fc.setIcon(icon_196a37c8f35244648e1c8721fe2931bd);
+        
+    
+        var popup_5675e27ac3e148db9de1c955ceaf65dc = L.popup({"maxWidth": 100});
+
+        
+            var html_751355ebcf06429496e59976cc05eaaf = $(`<div id="html_751355ebcf06429496e59976cc05eaaf" style="width: 100.0%; height: 100.0%;"><img src = 'volcano.png' style='width:25px;height:25px;'> <u>3350 m</u></div>`)[0];
+            popup_5675e27ac3e148db9de1c955ceaf65dc.setContent(html_751355ebcf06429496e59976cc05eaaf);
+        
+
+        marker_dd5041080b904098ab1d72f09401f9fc.bindPopup(popup_5675e27ac3e148db9de1c955ceaf65dc)
+        ;
+
+        
+    
+    
+            marker_dd5041080b904098ab1d72f09401f9fc.bindTooltip(
+                `<div>
+                     <strong>Mount Etna, Italy</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_70c84a5e994e4bafb653d34a9b952844 = L.marker(
+                [14.949405490299348, -24.34043356575871],
+                {}
+            ).addTo(feature_group_6b54c9a26719404abb03032a126a2ff6);
+        
+    
+            var icon_13fb0607bea247fba0f003829a58d790 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_70c84a5e994e4bafb653d34a9b952844.setIcon(icon_13fb0607bea247fba0f003829a58d790);
+        
+    
+        var popup_f541ba663af04eb991eaa44ab4372194 = L.popup({"maxWidth": 100});
+
+        
+            var html_c44a52511ef1465db25f3508e32ecadc = $(`<div id="html_c44a52511ef1465db25f3508e32ecadc" style="width: 100.0%; height: 100.0%;"><img src = 'volcano.png' style='width:25px;height:25px;'> <u>2829 m</u></div>`)[0];
+            popup_f541ba663af04eb991eaa44ab4372194.setContent(html_c44a52511ef1465db25f3508e32ecadc);
+        
+
+        marker_70c84a5e994e4bafb653d34a9b952844.bindPopup(popup_f541ba663af04eb991eaa44ab4372194)
+        ;
+
+        
+    
+    
+            marker_70c84a5e994e4bafb653d34a9b952844.bindTooltip(
+                `<div>
+                     <strong>Pico de Fogo, Cape Verde</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aace434012f24046adcc363d516cec39 = L.marker(
+                [14.382318826900988, -90.60150755067576],
+                {}
+            ).addTo(feature_group_6b54c9a26719404abb03032a126a2ff6);
+        
+    
+            var icon_d884fc8e4ad44f0b91aabc3dd6a8950d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_aace434012f24046adcc363d516cec39.setIcon(icon_d884fc8e4ad44f0b91aabc3dd6a8950d);
+        
+    
+        var popup_f0e7ba38c81741eb93c070529c83667b = L.popup({"maxWidth": 100});
+
+        
+            var html_02c60d9e495b47208a6c0beea9abb1b2 = $(`<div id="html_02c60d9e495b47208a6c0beea9abb1b2" style="width: 100.0%; height: 100.0%;"><img src = 'volcano.png' style='width:25px;height:25px;'> <u>2552 m</u></div>`)[0];
+            popup_f0e7ba38c81741eb93c070529c83667b.setContent(html_02c60d9e495b47208a6c0beea9abb1b2);
+        
+
+        marker_aace434012f24046adcc363d516cec39.bindPopup(popup_f0e7ba38c81741eb93c070529c83667b)
+        ;
+
+        
+    
+    
+            marker_aace434012f24046adcc363d516cec39.bindTooltip(
+                `<div>
+                     <strong>Pacaya, Guatemala</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d23cc696a6ac4bfeb672f6914bb23394 = L.marker(
+                [40.82247898314849, 14.428875335060807],
+                {}
+            ).addTo(feature_group_6b54c9a26719404abb03032a126a2ff6);
+        
+    
+            var icon_c9f08007a2374f74a61c59875d1d690c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d23cc696a6ac4bfeb672f6914bb23394.setIcon(icon_c9f08007a2374f74a61c59875d1d690c);
+        
+    
+        var popup_38b0d61ae28f4e2d8bf2d1e5fdd9702c = L.popup({"maxWidth": 100});
+
+        
+            var html_7a37433608f346feac3faeb9d2631453 = $(`<div id="html_7a37433608f346feac3faeb9d2631453" style="width: 100.0%; height: 100.0%;"><img src = 'volcano.png' style='width:25px;height:25px;'> <u>1281 m</u></div>`)[0];
+            popup_38b0d61ae28f4e2d8bf2d1e5fdd9702c.setContent(html_7a37433608f346feac3faeb9d2631453);
+        
+
+        marker_d23cc696a6ac4bfeb672f6914bb23394.bindPopup(popup_38b0d61ae28f4e2d8bf2d1e5fdd9702c)
+        ;
+
+        
+    
+    
+            marker_d23cc696a6ac4bfeb672f6914bb23394.bindTooltip(
+                `<div>
+                     <strong>Mount Vesuvius, Italy</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3898c27fee1b4e9f9c853de08b4300ac = L.marker(
+                [-39.42024529496876, -71.93964090700042],
+                {}
+            ).addTo(feature_group_6b54c9a26719404abb03032a126a2ff6);
+        
+    
+            var icon_ecca56a847a4422dba7a2cae818b9657 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3898c27fee1b4e9f9c853de08b4300ac.setIcon(icon_ecca56a847a4422dba7a2cae818b9657);
+        
+    
+        var popup_6578896ddf9a4750ac6f1e68e93eb3c4 = L.popup({"maxWidth": 100});
+
+        
+            var html_f3d8f91ce7c04093a0488ff7eebc261f = $(`<div id="html_f3d8f91ce7c04093a0488ff7eebc261f" style="width: 100.0%; height: 100.0%;"><img src = 'volcano.png' style='width:25px;height:25px;'> <u>2847 m</u></div>`)[0];
+            popup_6578896ddf9a4750ac6f1e68e93eb3c4.setContent(html_f3d8f91ce7c04093a0488ff7eebc261f);
+        
+
+        marker_3898c27fee1b4e9f9c853de08b4300ac.bindPopup(popup_6578896ddf9a4750ac6f1e68e93eb3c4)
+        ;
+
+        
+    
+    
+            marker_3898c27fee1b4e9f9c853de08b4300ac.bindTooltip(
+                `<div>
+                     <strong>Villarrica, Chile</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f5a564299a5e49a1846bd75e0c1e2fed = L.marker(
+                [54.75417706840114, -163.9702357445948],
+                {}
+            ).addTo(feature_group_6b54c9a26719404abb03032a126a2ff6);
+        
+    
+            var icon_4ac7d9f2db024644a38af33559383f92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_f5a564299a5e49a1846bd75e0c1e2fed.setIcon(icon_4ac7d9f2db024644a38af33559383f92);
+        
+    
+        var popup_eb38aeed7b664cbc9f044a0bbfae6355 = L.popup({"maxWidth": 100});
+
+        
+            var html_5bcf944140f44f68bbd3f1f3b8ad6e88 = $(`<div id="html_5bcf944140f44f68bbd3f1f3b8ad6e88" style="width: 100.0%; height: 100.0%;"><img src = 'volcano.png' style='width:25px;height:25px;'> <u>2857 m</u></div>`)[0];
+            popup_eb38aeed7b664cbc9f044a0bbfae6355.setContent(html_5bcf944140f44f68bbd3f1f3b8ad6e88);
+        
+
+        marker_f5a564299a5e49a1846bd75e0c1e2fed.bindPopup(popup_eb38aeed7b664cbc9f044a0bbfae6355)
+        ;
+
+        
+    
+    
+            marker_f5a564299a5e49a1846bd75e0c1e2fed.bindTooltip(
+                `<div>
+                     <strong>Shishaldin, Alaska</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_05bf775f72fc473f97c802025ff601fc = L.marker(
+                [-7.94247595743476, 112.953013075075],
+                {}
+            ).addTo(feature_group_6b54c9a26719404abb03032a126a2ff6);
+        
+    
+            var icon_80e3af0bdb444bd2a4cb9da815d614f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_05bf775f72fc473f97c802025ff601fc.setIcon(icon_80e3af0bdb444bd2a4cb9da815d614f6);
+        
+    
+        var popup_bb232228b26741ca94741766b95fd3ff = L.popup({"maxWidth": 100});
+
+        
+            var html_299873f73d9f4ff78c3111a00914a911 = $(`<div id="html_299873f73d9f4ff78c3111a00914a911" style="width: 100.0%; height: 100.0%;"><img src = 'volcano.png' style='width:25px;height:25px;'> <u>2329 m</u></div>`)[0];
+            popup_bb232228b26741ca94741766b95fd3ff.setContent(html_299873f73d9f4ff78c3111a00914a911);
+        
+
+        marker_05bf775f72fc473f97c802025ff601fc.bindPopup(popup_bb232228b26741ca94741766b95fd3ff)
+        ;
+
+        
+    
+    
+            marker_05bf775f72fc473f97c802025ff601fc.bindTooltip(
+                `<div>
+                     <strong>Mount Bromo, Indonesia</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_20721932c8fb4b398c9e4381720efc72 = L.marker(
+                [38.79252428016747, 15.211648549676932],
+                {}
+            ).addTo(feature_group_6b54c9a26719404abb03032a126a2ff6);
+        
+    
+            var icon_4eb0c47d7ce04713a1b4773874f60f31 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_20721932c8fb4b398c9e4381720efc72.setIcon(icon_4eb0c47d7ce04713a1b4773874f60f31);
+        
+    
+        var popup_18fb0820b6cd4036a84ec0ab1f994246 = L.popup({"maxWidth": 100});
+
+        
+            var html_5e9c02f1eb76474b9b8fb3e1bbdf7fb7 = $(`<div id="html_5e9c02f1eb76474b9b8fb3e1bbdf7fb7" style="width: 100.0%; height: 100.0%;"><img src = 'volcano.png' style='width:25px;height:25px;'> <u>924 m</u></div>`)[0];
+            popup_18fb0820b6cd4036a84ec0ab1f994246.setContent(html_5e9c02f1eb76474b9b8fb3e1bbdf7fb7);
+        
+
+        marker_20721932c8fb4b398c9e4381720efc72.bindPopup(popup_18fb0820b6cd4036a84ec0ab1f994246)
+        ;
+
+        
+    
+    
+            marker_20721932c8fb4b398c9e4381720efc72.bindTooltip(
+                `<div>
+                     <strong>Stromboli, Sicily</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aaccf768cec9462a8308f6a8019be541 = L.marker(
+                [-39.28169712307853, 175.5685169834766],
+                {}
+            ).addTo(feature_group_6b54c9a26719404abb03032a126a2ff6);
+        
+    
+            var icon_f5ed677095d341a5b80d4e2ad6e0551d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_aaccf768cec9462a8308f6a8019be541.setIcon(icon_f5ed677095d341a5b80d4e2ad6e0551d);
+        
+    
+        var popup_a4b64a461f1144b794d5ae72710327a8 = L.popup({"maxWidth": 100});
+
+        
+            var html_1f13536fc21840be89dfba0b69487543 = $(`<div id="html_1f13536fc21840be89dfba0b69487543" style="width: 100.0%; height: 100.0%;"><img src = 'volcano.png' style='width:25px;height:25px;'> <u>2797 m</u></div>`)[0];
+            popup_a4b64a461f1144b794d5ae72710327a8.setContent(html_1f13536fc21840be89dfba0b69487543);
+        
+
+        marker_aaccf768cec9462a8308f6a8019be541.bindPopup(popup_a4b64a461f1144b794d5ae72710327a8)
+        ;
+
+        
+    
+    
+            marker_aaccf768cec9462a8308f6a8019be541.bindTooltip(
+                `<div>
+                     <strong>Mount Ruapehu, New Zealand</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e68087970663420997e80978db037894 = L.marker(
+                [-0.6837418601262236, -78.43719162745293],
+                {}
+            ).addTo(feature_group_6b54c9a26719404abb03032a126a2ff6);
+        
+    
+            var icon_bdeea956776342dc9d12136d6add2598 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e68087970663420997e80978db037894.setIcon(icon_bdeea956776342dc9d12136d6add2598);
+        
+    
+        var popup_166b4225115f402985fee73292b28940 = L.popup({"maxWidth": 100});
+
+        
+            var html_924d437a259e4001b867bb7f5d4dd58a = $(`<div id="html_924d437a259e4001b867bb7f5d4dd58a" style="width: 100.0%; height: 100.0%;"><img src = 'volcano.png' style='width:25px;height:25px;'> <u>5897 m</u></div>`)[0];
+            popup_166b4225115f402985fee73292b28940.setContent(html_924d437a259e4001b867bb7f5d4dd58a);
+        
+
+        marker_e68087970663420997e80978db037894.bindPopup(popup_166b4225115f402985fee73292b28940)
+        ;
+
+        
+    
+    
+            marker_e68087970663420997e80978db037894.bindTooltip(
+                `<div>
+                     <strong>Cotopaxi, Ecuador</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_98a0b8b683a64e23bd70672d30c78db5 = L.marker(
+                [-0.8212012835105001, -91.13254805134454],
+                {}
+            ).addTo(feature_group_6b54c9a26719404abb03032a126a2ff6);
+        
+    
+            var icon_55fb1d125f94403395f9166b634f7274 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_98a0b8b683a64e23bd70672d30c78db5.setIcon(icon_55fb1d125f94403395f9166b634f7274);
+        
+    
+        var popup_f70468d007b54adf854ff0bbe6039908 = L.popup({"maxWidth": 100});
+
+        
+            var html_1fbca75599bb4371837c6f469d398be8 = $(`<div id="html_1fbca75599bb4371837c6f469d398be8" style="width: 100.0%; height: 100.0%;"><img src = 'volcano.png' style='width:25px;height:25px;'> <u>1707 m</u></div>`)[0];
+            popup_f70468d007b54adf854ff0bbe6039908.setContent(html_1fbca75599bb4371837c6f469d398be8);
+        
+
+        marker_98a0b8b683a64e23bd70672d30c78db5.bindPopup(popup_f70468d007b54adf854ff0bbe6039908)
+        ;
+
+        
+    
+    
+            marker_98a0b8b683a64e23bd70672d30c78db5.bindTooltip(
+                `<div>
+                     <strong>Isabela Island, Galapagos, Ecuador</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4af93fadc59b45bc86af1d78a62d61df = L.marker(
+                [13.254839933073283, 123.6861124743749],
+                {}
+            ).addTo(feature_group_6b54c9a26719404abb03032a126a2ff6);
+        
+    
+            var icon_42c42d6add854fb4aef0a3c861c406b0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_4af93fadc59b45bc86af1d78a62d61df.setIcon(icon_42c42d6add854fb4aef0a3c861c406b0);
+        
+    
+        var popup_568b6f0b15554de09e27cb4243d525bd = L.popup({"maxWidth": 100});
+
+        
+            var html_0b4fdbf0bd63477e9f13360ceb04503a = $(`<div id="html_0b4fdbf0bd63477e9f13360ceb04503a" style="width: 100.0%; height: 100.0%;"><img src = 'volcano.png' style='width:25px;height:25px;'> <u>2463 m</u></div>`)[0];
+            popup_568b6f0b15554de09e27cb4243d525bd.setContent(html_0b4fdbf0bd63477e9f13360ceb04503a);
+        
+
+        marker_4af93fadc59b45bc86af1d78a62d61df.bindPopup(popup_568b6f0b15554de09e27cb4243d525bd)
+        ;
+
+        
+    
+    
+            marker_4af93fadc59b45bc86af1d78a62d61df.bindTooltip(
+                `<div>
+                     <strong>Mount Mayon, Philippines</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6ac899b549e54b98866f5bd381b07eea = L.marker(
+                [-6.1021191579913925, 105.42298803269428],
+                {}
+            ).addTo(feature_group_6b54c9a26719404abb03032a126a2ff6);
+        
+    
+            var icon_5c1ed8d9a5614269801145c6a1a3ade2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6ac899b549e54b98866f5bd381b07eea.setIcon(icon_5c1ed8d9a5614269801145c6a1a3ade2);
+        
+    
+        var popup_eb45236e0eb746db8ec33b740ca316b2 = L.popup({"maxWidth": 100});
+
+        
+            var html_970e664497c540b6bc17c5ecb8297db8 = $(`<div id="html_970e664497c540b6bc17c5ecb8297db8" style="width: 100.0%; height: 100.0%;"><img src = 'volcano.png' style='width:25px;height:25px;'> <u>813 m</u></div>`)[0];
+            popup_eb45236e0eb746db8ec33b740ca316b2.setContent(html_970e664497c540b6bc17c5ecb8297db8);
+        
+
+        marker_6ac899b549e54b98866f5bd381b07eea.bindPopup(popup_eb45236e0eb746db8ec33b740ca316b2)
+        ;
+
+        
+    
+    
+            marker_6ac899b549e54b98866f5bd381b07eea.bindTooltip(
+                `<div>
+                     <strong>Krakatoa, Indonesia</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b279749853d94c4bbfd7252585fb5ed2 = L.marker(
+                [-8.343306220912979, 115.50705663810442],
+                {}
+            ).addTo(feature_group_6b54c9a26719404abb03032a126a2ff6);
+        
+    
+            var icon_1db2860e21634a849a2edbb87b852da5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b279749853d94c4bbfd7252585fb5ed2.setIcon(icon_1db2860e21634a849a2edbb87b852da5);
+        
+    
+        var popup_40b9c0668b4f421f8f2a7eb82d5d5a29 = L.popup({"maxWidth": 100});
+
+        
+            var html_aa5b69f937414e2b8ace9f299c9a176b = $(`<div id="html_aa5b69f937414e2b8ace9f299c9a176b" style="width: 100.0%; height: 100.0%;"><img src = 'volcano.png' style='width:25px;height:25px;'> <u>3031 m</u></div>`)[0];
+            popup_40b9c0668b4f421f8f2a7eb82d5d5a29.setContent(html_aa5b69f937414e2b8ace9f299c9a176b);
+        
+
+        marker_b279749853d94c4bbfd7252585fb5ed2.bindPopup(popup_40b9c0668b4f421f8f2a7eb82d5d5a29)
+        ;
+
+        
+    
+    
+            marker_b279749853d94c4bbfd7252585fb5ed2.bindTooltip(
+                `<div>
+                     <strong>Agung, Indonesia</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4f722eacdf684f4ca429bffa60f75f4c = L.marker(
+                [10.197870158976569, -84.23057668789158],
+                {}
+            ).addTo(feature_group_6b54c9a26719404abb03032a126a2ff6);
+        
+    
+            var icon_09482fa401a64f069a34be638d1ba004 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_4f722eacdf684f4ca429bffa60f75f4c.setIcon(icon_09482fa401a64f069a34be638d1ba004);
+        
+    
+        var popup_7e188b50aca2429ea15bc36cb170dd5c = L.popup({"maxWidth": 100});
+
+        
+            var html_8b416c88241e41639190eedcf6c71443 = $(`<div id="html_8b416c88241e41639190eedcf6c71443" style="width: 100.0%; height: 100.0%;"><img src = 'volcano.png' style='width:25px;height:25px;'> <u>2708 m</u></div>`)[0];
+            popup_7e188b50aca2429ea15bc36cb170dd5c.setContent(html_8b416c88241e41639190eedcf6c71443);
+        
+
+        marker_4f722eacdf684f4ca429bffa60f75f4c.bindPopup(popup_7e188b50aca2429ea15bc36cb170dd5c)
+        ;
+
+        
+    
+    
+            marker_4f722eacdf684f4ca429bffa60f75f4c.bindTooltip(
+                `<div>
+                     <strong>Poás, Costa Rica</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_14ee8b9e70404fababfc1d637f52532c = L.marker(
+                [46.19140454573476, -122.1955507807328],
+                {}
+            ).addTo(feature_group_6b54c9a26719404abb03032a126a2ff6);
+        
+    
+            var icon_6910d0d260b84d49b31d18af97e3ef01 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_14ee8b9e70404fababfc1d637f52532c.setIcon(icon_6910d0d260b84d49b31d18af97e3ef01);
+        
+    
+        var popup_53db718b343f4639a740b33f86f5fc94 = L.popup({"maxWidth": 100});
+
+        
+            var html_a447ec7a87b34fc0bbe4676f8bf1801a = $(`<div id="html_a447ec7a87b34fc0bbe4676f8bf1801a" style="width: 100.0%; height: 100.0%;"><img src = 'volcano.png' style='width:25px;height:25px;'> <u>2550 m</u></div>`)[0];
+            popup_53db718b343f4639a740b33f86f5fc94.setContent(html_a447ec7a87b34fc0bbe4676f8bf1801a);
+        
+
+        marker_14ee8b9e70404fababfc1d637f52532c.bindPopup(popup_53db718b343f4639a740b33f86f5fc94)
+        ;
+
+        
+    
+    
+            marker_14ee8b9e70404fababfc1d637f52532c.bindTooltip(
+                `<div>
+                     <strong>Mount St Helens, Washington</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2f3c1cabea034a39ab93cd5621f03da0 = L.marker(
+                [-19.52881166028595, 169.44717658617398],
+                {}
+            ).addTo(feature_group_6b54c9a26719404abb03032a126a2ff6);
+        
+    
+            var icon_8e398e4bde814d0db91893b0cf511d0e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2f3c1cabea034a39ab93cd5621f03da0.setIcon(icon_8e398e4bde814d0db91893b0cf511d0e);
+        
+    
+        var popup_dd6b3bacee184f8d9831885d4cd46f04 = L.popup({"maxWidth": 100});
+
+        
+            var html_942ba50413ab486a976f1fba631fbbc1 = $(`<div id="html_942ba50413ab486a976f1fba631fbbc1" style="width: 100.0%; height: 100.0%;"><img src = 'volcano.png' style='width:25px;height:25px;'> <u>361 m</u></div>`)[0];
+            popup_dd6b3bacee184f8d9831885d4cd46f04.setContent(html_942ba50413ab486a976f1fba631fbbc1);
+        
+
+        marker_2f3c1cabea034a39ab93cd5621f03da0.bindPopup(popup_dd6b3bacee184f8d9831885d4cd46f04)
+        ;
+
+        
+    
+    
+            marker_2f3c1cabea034a39ab93cd5621f03da0.bindTooltip(
+                `<div>
+                     <strong>Mount Yasur, Vanuatu</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f280a81f2a334db4b62005d15253f5aa = L.marker(
+                [19.407124271387477, -155.28341222073604],
+                {}
+            ).addTo(feature_group_6b54c9a26719404abb03032a126a2ff6);
+        
+    
+            var icon_be121f97765141f9a1479ec28c77c95c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_f280a81f2a334db4b62005d15253f5aa.setIcon(icon_be121f97765141f9a1479ec28c77c95c);
+        
+    
+        var popup_b286469508d54f59899ac5be370ce478 = L.popup({"maxWidth": 100});
+
+        
+            var html_198a03c6dbf74bdbb9f6fcb11c048d60 = $(`<div id="html_198a03c6dbf74bdbb9f6fcb11c048d60" style="width: 100.0%; height: 100.0%;"><img src = 'volcano.png' style='width:25px;height:25px;'> <u>1247 m</u></div>`)[0];
+            popup_b286469508d54f59899ac5be370ce478.setContent(html_198a03c6dbf74bdbb9f6fcb11c048d60);
+        
+
+        marker_f280a81f2a334db4b62005d15253f5aa.bindPopup(popup_b286469508d54f59899ac5be370ce478)
+        ;
+
+        
+    
+    
+            marker_f280a81f2a334db4b62005d15253f5aa.bindTooltip(
+                `<div>
+                     <strong>Kilauea, Hawaii</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_76a53d22f37c4f0ea4d4e831346de222 = L.marker(
+                [19.02959642556361, -97.2680920676654],
+                {}
+            ).addTo(feature_group_6b54c9a26719404abb03032a126a2ff6);
+        
+    
+            var icon_8e87c3af815742799bcd459cb1f87364 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_76a53d22f37c4f0ea4d4e831346de222.setIcon(icon_8e87c3af815742799bcd459cb1f87364);
+        
+    
+        var popup_12d3ee1167394452b824dd1223e105e2 = L.popup({"maxWidth": 100});
+
+        
+            var html_f91446f15ecf4db08d63f615684b3e98 = $(`<div id="html_f91446f15ecf4db08d63f615684b3e98" style="width: 100.0%; height: 100.0%;"><img src = 'volcano.png' style='width:25px;height:25px;'> <u>5636 m</u></div>`)[0];
+            popup_12d3ee1167394452b824dd1223e105e2.setContent(html_f91446f15ecf4db08d63f615684b3e98);
+        
+
+        marker_76a53d22f37c4f0ea4d4e831346de222.bindPopup(popup_12d3ee1167394452b824dd1223e105e2)
+        ;
+
+        
+    
+    
+            marker_76a53d22f37c4f0ea4d4e831346de222.bindTooltip(
+                `<div>
+                     <strong>Pico de Orizaba</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_928d0fae0e074289b7a0fac5e365156b = L.marker(
+                [15.042736764801392, -91.9045030957736],
+                {}
+            ).addTo(feature_group_6b54c9a26719404abb03032a126a2ff6);
+        
+    
+            var icon_f6adbd0734f64f6eb6cfaaeead344e22 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_928d0fae0e074289b7a0fac5e365156b.setIcon(icon_f6adbd0734f64f6eb6cfaaeead344e22);
+        
+    
+        var popup_d95b24efdd5645b6a2dc73e1c870af88 = L.popup({"maxWidth": 100});
+
+        
+            var html_b7acc295fc2d41a6b417559d8a155e0e = $(`<div id="html_b7acc295fc2d41a6b417559d8a155e0e" style="width: 100.0%; height: 100.0%;"><img src = 'volcano.png' style='width:25px;height:25px;'> <u>4220 m</u></div>`)[0];
+            popup_d95b24efdd5645b6a2dc73e1c870af88.setContent(html_b7acc295fc2d41a6b417559d8a155e0e);
+        
+
+        marker_928d0fae0e074289b7a0fac5e365156b.bindPopup(popup_d95b24efdd5645b6a2dc73e1c870af88)
+        ;
+
+        
+    
+    
+            marker_928d0fae0e074289b7a0fac5e365156b.bindTooltip(
+                `<div>
+                     <strong>Volcán Tajumulco</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3e1d709e00a14c0ca7427961c7e60eff = L.marker(
+                [19.47290642407117, -155.5922651175355],
+                {}
+            ).addTo(feature_group_6b54c9a26719404abb03032a126a2ff6);
+        
+    
+            var icon_8430f2a870814aba8480d12a87651d09 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3e1d709e00a14c0ca7427961c7e60eff.setIcon(icon_8430f2a870814aba8480d12a87651d09);
+        
+    
+        var popup_4dc6e187461f4cc18259b79117622fa4 = L.popup({"maxWidth": 100});
+
+        
+            var html_01ea2d7997da405d9812b9d7f5a1fbb0 = $(`<div id="html_01ea2d7997da405d9812b9d7f5a1fbb0" style="width: 100.0%; height: 100.0%;"><img src = 'volcano.png' style='width:25px;height:25px;'> <u>4205 m</u></div>`)[0];
+            popup_4dc6e187461f4cc18259b79117622fa4.setContent(html_01ea2d7997da405d9812b9d7f5a1fbb0);
+        
+
+        marker_3e1d709e00a14c0ca7427961c7e60eff.bindPopup(popup_4dc6e187461f4cc18259b79117622fa4)
+        ;
+
+        
+    
+    
+            marker_3e1d709e00a14c0ca7427961c7e60eff.bindTooltip(
+                `<div>
+                     <strong>Mauna Kea</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_eeb4914cc22449298d5c54cf7065aac1 = L.featureGroup(
+                {}
+            ).addTo(map_b09be54e97f440b4aa5ef5dd9de55aa0);
+        
+    
+            var marker_9dfb656538e3421a97674351f2586e0f = L.marker(
+                [27.98812511190263, 86.92497567079089],
+                {}
+            ).addTo(feature_group_eeb4914cc22449298d5c54cf7065aac1);
+        
+    
+            var icon_7c9ee9b1a395487d9ee7d4e4f1053725 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9dfb656538e3421a97674351f2586e0f.setIcon(icon_7c9ee9b1a395487d9ee7d4e4f1053725);
+        
+    
+        var popup_5ae9013c5d724efc8d846fc2d78b114a = L.popup({"maxWidth": 100});
+
+        
+            var html_7e41a9682ab24e478ecce616c56d621d = $(`<div id="html_7e41a9682ab24e478ecce616c56d621d" style="width: 100.0%; height: 100.0%;"><img src = 'mountain.png' style='width:25px;height:25px;'> <u>8848 m</u></div>`)[0];
+            popup_5ae9013c5d724efc8d846fc2d78b114a.setContent(html_7e41a9682ab24e478ecce616c56d621d);
+        
+
+        marker_9dfb656538e3421a97674351f2586e0f.bindPopup(popup_5ae9013c5d724efc8d846fc2d78b114a)
+        ;
+
+        
+    
+    
+            marker_9dfb656538e3421a97674351f2586e0f.bindTooltip(
+                `<div>
+                     <strong>Mount Everest</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bf301c2bcd1f4f8faeccd9acf1b38220 = L.marker(
+                [-32.65316279561031, -70.01086750813175],
+                {}
+            ).addTo(feature_group_eeb4914cc22449298d5c54cf7065aac1);
+        
+    
+            var icon_74e04203ded24a97a76868edceabe9ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bf301c2bcd1f4f8faeccd9acf1b38220.setIcon(icon_74e04203ded24a97a76868edceabe9ac);
+        
+    
+        var popup_843160ea072c4c26a188ee8bb74899b6 = L.popup({"maxWidth": 100});
+
+        
+            var html_29b09d5f817f4294a830658f4c158f73 = $(`<div id="html_29b09d5f817f4294a830658f4c158f73" style="width: 100.0%; height: 100.0%;"><img src = 'mountain.png' style='width:25px;height:25px;'> <u>6962 m</u></div>`)[0];
+            popup_843160ea072c4c26a188ee8bb74899b6.setContent(html_29b09d5f817f4294a830658f4c158f73);
+        
+
+        marker_bf301c2bcd1f4f8faeccd9acf1b38220.bindPopup(popup_843160ea072c4c26a188ee8bb74899b6)
+        ;
+
+        
+    
+    
+            marker_bf301c2bcd1f4f8faeccd9acf1b38220.bindTooltip(
+                `<div>
+                     <strong>Aconcagua</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b8b0b90bedc5470b801da6c3e0f95f13 = L.marker(
+                [63.06917284556719, -151.00698631562216],
+                {}
+            ).addTo(feature_group_eeb4914cc22449298d5c54cf7065aac1);
+        
+    
+            var icon_8915248684e64875a208002b50419866 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b8b0b90bedc5470b801da6c3e0f95f13.setIcon(icon_8915248684e64875a208002b50419866);
+        
+    
+        var popup_a9b17ae11ba844e5902d05a8108588f5 = L.popup({"maxWidth": 100});
+
+        
+            var html_39e35c0895064ec489e5c19635e4fe10 = $(`<div id="html_39e35c0895064ec489e5c19635e4fe10" style="width: 100.0%; height: 100.0%;"><img src = 'mountain.png' style='width:25px;height:25px;'> <u>6191 m</u></div>`)[0];
+            popup_a9b17ae11ba844e5902d05a8108588f5.setContent(html_39e35c0895064ec489e5c19635e4fe10);
+        
+
+        marker_b8b0b90bedc5470b801da6c3e0f95f13.bindPopup(popup_a9b17ae11ba844e5902d05a8108588f5)
+        ;
+
+        
+    
+    
+            marker_b8b0b90bedc5470b801da6c3e0f95f13.bindTooltip(
+                `<div>
+                     <strong>Denali</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0e0346d62e8443b4aa6e23dfbcbc4bca = L.marker(
+                [-3.067419892853119, 37.35562722577985],
+                {}
+            ).addTo(feature_group_eeb4914cc22449298d5c54cf7065aac1);
+        
+    
+            var icon_e9db89be69a742cdb8b0a9a56513ea33 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0e0346d62e8443b4aa6e23dfbcbc4bca.setIcon(icon_e9db89be69a742cdb8b0a9a56513ea33);
+        
+    
+        var popup_a77871be6170483285655ec71b396ff2 = L.popup({"maxWidth": 100});
+
+        
+            var html_6d2376106a2a445890f3f17163d8e635 = $(`<div id="html_6d2376106a2a445890f3f17163d8e635" style="width: 100.0%; height: 100.0%;"><img src = 'mountain.png' style='width:25px;height:25px;'> <u>5895 m</u></div>`)[0];
+            popup_a77871be6170483285655ec71b396ff2.setContent(html_6d2376106a2a445890f3f17163d8e635);
+        
+
+        marker_0e0346d62e8443b4aa6e23dfbcbc4bca.bindPopup(popup_a77871be6170483285655ec71b396ff2)
+        ;
+
+        
+    
+    
+            marker_0e0346d62e8443b4aa6e23dfbcbc4bca.bindTooltip(
+                `<div>
+                     <strong>Mount Kilimanjaro</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b96a8139dc4e49bcb4fac347fe71cf24 = L.marker(
+                [10.839169401535449, -73.68638862844409],
+                {}
+            ).addTo(feature_group_eeb4914cc22449298d5c54cf7065aac1);
+        
+    
+            var icon_3e8fc15a030a4e8f9f19ce9b73eedd1d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b96a8139dc4e49bcb4fac347fe71cf24.setIcon(icon_3e8fc15a030a4e8f9f19ce9b73eedd1d);
+        
+    
+        var popup_a5b662db47fa48ecb5a2181f9d640290 = L.popup({"maxWidth": 100});
+
+        
+            var html_7c741e400216433db6319d837283d742 = $(`<div id="html_7c741e400216433db6319d837283d742" style="width: 100.0%; height: 100.0%;"><img src = 'mountain.png' style='width:25px;height:25px;'> <u>5700 m</u></div>`)[0];
+            popup_a5b662db47fa48ecb5a2181f9d640290.setContent(html_7c741e400216433db6319d837283d742);
+        
+
+        marker_b96a8139dc4e49bcb4fac347fe71cf24.bindPopup(popup_a5b662db47fa48ecb5a2181f9d640290)
+        ;
+
+        
+    
+    
+            marker_b96a8139dc4e49bcb4fac347fe71cf24.bindTooltip(
+                `<div>
+                     <strong>Pico Cristóbal Colón</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a7eace8b8b6b499590c644d17cce1f58 = L.marker(
+                [60.56700262527285, -140.4052936704186],
+                {}
+            ).addTo(feature_group_eeb4914cc22449298d5c54cf7065aac1);
+        
+    
+            var icon_4f36e68ce1774845bf530b1d8404958b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a7eace8b8b6b499590c644d17cce1f58.setIcon(icon_4f36e68ce1774845bf530b1d8404958b);
+        
+    
+        var popup_dc49e5bcfb1740e7ba239cbc5091f1c5 = L.popup({"maxWidth": 100});
+
+        
+            var html_79424cc202d448ee89bfa6c89faaa31c = $(`<div id="html_79424cc202d448ee89bfa6c89faaa31c" style="width: 100.0%; height: 100.0%;"><img src = 'mountain.png' style='width:25px;height:25px;'> <u>5959 m</u></div>`)[0];
+            popup_dc49e5bcfb1740e7ba239cbc5091f1c5.setContent(html_79424cc202d448ee89bfa6c89faaa31c);
+        
+
+        marker_a7eace8b8b6b499590c644d17cce1f58.bindPopup(popup_dc49e5bcfb1740e7ba239cbc5091f1c5)
+        ;
+
+        
+    
+    
+            marker_a7eace8b8b6b499590c644d17cce1f58.bindTooltip(
+                `<div>
+                     <strong>Mount Logan</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_69f871a86848495c94fd0272a958cb6e = L.marker(
+                [30.919828537407728, 79.59028213194095],
+                {}
+            ).addTo(feature_group_eeb4914cc22449298d5c54cf7065aac1);
+        
+    
+            var icon_7651faa8786a49a0acb2604794b2146d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_69f871a86848495c94fd0272a958cb6e.setIcon(icon_7651faa8786a49a0acb2604794b2146d);
+        
+    
+        var popup_16e7ae28aecf4f8688e18af4420e5992 = L.popup({"maxWidth": 100});
+
+        
+            var html_d7a741cf0e0c48cca7d300a8cae5f798 = $(`<div id="html_d7a741cf0e0c48cca7d300a8cae5f798" style="width: 100.0%; height: 100.0%;"><img src = 'mountain.png' style='width:25px;height:25px;'> <u>7756 m</u></div>`)[0];
+            popup_16e7ae28aecf4f8688e18af4420e5992.setContent(html_d7a741cf0e0c48cca7d300a8cae5f798);
+        
+
+        marker_69f871a86848495c94fd0272a958cb6e.bindPopup(popup_16e7ae28aecf4f8688e18af4420e5992)
+        ;
+
+        
+    
+    
+            marker_69f871a86848495c94fd0272a958cb6e.bindTooltip(
+                `<div>
+                     <strong>Kamet</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_005c5ad1f39942a29809061563cd419b = L.marker(
+                [-78.63406501102419, -85.21339353529703],
+                {}
+            ).addTo(feature_group_eeb4914cc22449298d5c54cf7065aac1);
+        
+    
+            var icon_0d7b0c3e2de34ea489f15fda9c043067 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_005c5ad1f39942a29809061563cd419b.setIcon(icon_0d7b0c3e2de34ea489f15fda9c043067);
+        
+    
+        var popup_23b932c066ef448c8dfd39bc047f2f7d = L.popup({"maxWidth": 100});
+
+        
+            var html_8895d2cae29a4011ba658faa27ebc4b5 = $(`<div id="html_8895d2cae29a4011ba658faa27ebc4b5" style="width: 100.0%; height: 100.0%;"><img src = 'mountain.png' style='width:25px;height:25px;'> <u>4892 m</u></div>`)[0];
+            popup_23b932c066ef448c8dfd39bc047f2f7d.setContent(html_8895d2cae29a4011ba658faa27ebc4b5);
+        
+
+        marker_005c5ad1f39942a29809061563cd419b.bindPopup(popup_23b932c066ef448c8dfd39bc047f2f7d)
+        ;
+
+        
+    
+    
+            marker_005c5ad1f39942a29809061563cd419b.bindTooltip(
+                `<div>
+                     <strong>Vinson Massif</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e12bd2d871f94f80922af73c3afc9456 = L.marker(
+                [-4.08459233620397, 137.1866170012554],
+                {}
+            ).addTo(feature_group_eeb4914cc22449298d5c54cf7065aac1);
+        
+    
+            var icon_e31cfb410c6f4fd0bc31b8ca6591a832 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e12bd2d871f94f80922af73c3afc9456.setIcon(icon_e31cfb410c6f4fd0bc31b8ca6591a832);
+        
+    
+        var popup_62b8c27fbaa744e8a00e7f1e684ad6dd = L.popup({"maxWidth": 100});
+
+        
+            var html_363091650c7e4e9aa164bc5bc7d9aff9 = $(`<div id="html_363091650c7e4e9aa164bc5bc7d9aff9" style="width: 100.0%; height: 100.0%;"><img src = 'mountain.png' style='width:25px;height:25px;'> <u>4884 m</u></div>`)[0];
+            popup_62b8c27fbaa744e8a00e7f1e684ad6dd.setContent(html_363091650c7e4e9aa164bc5bc7d9aff9);
+        
+
+        marker_e12bd2d871f94f80922af73c3afc9456.bindPopup(popup_62b8c27fbaa744e8a00e7f1e684ad6dd)
+        ;
+
+        
+    
+    
+            marker_e12bd2d871f94f80922af73c3afc9456.bindTooltip(
+                `<div>
+                     <strong>Puncak Jaya</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a8d2430c1d214a958d4d99c75ec1dedb = L.marker(
+                [43.34993989339684, 42.44532913137314],
+                {}
+            ).addTo(feature_group_eeb4914cc22449298d5c54cf7065aac1);
+        
+    
+            var icon_f805a31eaab04267af55e479ce32ea44 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a8d2430c1d214a958d4d99c75ec1dedb.setIcon(icon_f805a31eaab04267af55e479ce32ea44);
+        
+    
+        var popup_b23e67c70236495495d5bb06f8a2b7de = L.popup({"maxWidth": 100});
+
+        
+            var html_2766628f2a6b48068bf8dc383b6dda7e = $(`<div id="html_2766628f2a6b48068bf8dc383b6dda7e" style="width: 100.0%; height: 100.0%;"><img src = 'mountain.png' style='width:25px;height:25px;'> <u>5642 m</u></div>`)[0];
+            popup_b23e67c70236495495d5bb06f8a2b7de.setContent(html_2766628f2a6b48068bf8dc383b6dda7e);
+        
+
+        marker_a8d2430c1d214a958d4d99c75ec1dedb.bindPopup(popup_b23e67c70236495495d5bb06f8a2b7de)
+        ;
+
+        
+    
+    
+            marker_a8d2430c1d214a958d4d99c75ec1dedb.bindTooltip(
+                `<div>
+                     <strong>Mount Elbrus</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f602b0c9600a4d129453cef02120814f = L.marker(
+                [45.83262496278218, 6.865174441708908],
+                {}
+            ).addTo(feature_group_eeb4914cc22449298d5c54cf7065aac1);
+        
+    
+            var icon_94b0e13fcefa48a6be825a77c64a1d5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f602b0c9600a4d129453cef02120814f.setIcon(icon_94b0e13fcefa48a6be825a77c64a1d5e);
+        
+    
+        var popup_68a589e99abc4749a5fc3753509ee7e8 = L.popup({"maxWidth": 100});
+
+        
+            var html_e8f6d8293b0c4e0ca6d5be1561a916cb = $(`<div id="html_e8f6d8293b0c4e0ca6d5be1561a916cb" style="width: 100.0%; height: 100.0%;"><img src = 'mountain.png' style='width:25px;height:25px;'> <u>4808 m</u></div>`)[0];
+            popup_68a589e99abc4749a5fc3753509ee7e8.setContent(html_e8f6d8293b0c4e0ca6d5be1561a916cb);
+        
+
+        marker_f602b0c9600a4d129453cef02120814f.bindPopup(popup_68a589e99abc4749a5fc3753509ee7e8)
+        ;
+
+        
+    
+    
+            marker_f602b0c9600a4d129453cef02120814f.bindTooltip(
+                `<div>
+                     <strong>Mont Blanc</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fbfc9b1f03b64b18a33c12ab187979d1 = L.marker(
+                [35.95483952693957, 52.10997910369088],
+                {}
+            ).addTo(feature_group_eeb4914cc22449298d5c54cf7065aac1);
+        
+    
+            var icon_2f54ade419b34ab9b3735370b2df1084 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fbfc9b1f03b64b18a33c12ab187979d1.setIcon(icon_2f54ade419b34ab9b3735370b2df1084);
+        
+    
+        var popup_54bae554f6d74496af00f9d336901ab4 = L.popup({"maxWidth": 100});
+
+        
+            var html_897cbcedca254bd4ab85fe7b7deaa16a = $(`<div id="html_897cbcedca254bd4ab85fe7b7deaa16a" style="width: 100.0%; height: 100.0%;"><img src = 'mountain.png' style='width:25px;height:25px;'> <u>5610 m</u></div>`)[0];
+            popup_54bae554f6d74496af00f9d336901ab4.setContent(html_897cbcedca254bd4ab85fe7b7deaa16a);
+        
+
+        marker_fbfc9b1f03b64b18a33c12ab187979d1.bindPopup(popup_54bae554f6d74496af00f9d336901ab4)
+        ;
+
+        
+    
+    
+            marker_fbfc9b1f03b64b18a33c12ab187979d1.bindTooltip(
+                `<div>
+                     <strong>Mount Damavand</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b1abfd2ae73849f4b4285ae443498d33 = L.marker(
+                [56.05754022385285, 160.6414578694564],
+                {}
+            ).addTo(feature_group_eeb4914cc22449298d5c54cf7065aac1);
+        
+    
+            var icon_22a2f4d8a6ef42cfb6bcd2733366af7e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b1abfd2ae73849f4b4285ae443498d33.setIcon(icon_22a2f4d8a6ef42cfb6bcd2733366af7e);
+        
+    
+        var popup_5e3cd0452e904e63bc4bba2c505c45ec = L.popup({"maxWidth": 100});
+
+        
+            var html_ad4a5e1bb3de4102a2ba9db9ed0e839c = $(`<div id="html_ad4a5e1bb3de4102a2ba9db9ed0e839c" style="width: 100.0%; height: 100.0%;"><img src = 'mountain.png' style='width:25px;height:25px;'> <u>4750 m</u></div>`)[0];
+            popup_5e3cd0452e904e63bc4bba2c505c45ec.setContent(html_ad4a5e1bb3de4102a2ba9db9ed0e839c);
+        
+
+        marker_b1abfd2ae73849f4b4285ae443498d33.bindPopup(popup_5e3cd0452e904e63bc4bba2c505c45ec)
+        ;
+
+        
+    
+    
+            marker_b1abfd2ae73849f4b4285ae443498d33.bindTooltip(
+                `<div>
+                     <strong>Klyuchevskaya Sopka</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d327794dcea44533b875eb12bd40ba2c = L.marker(
+                [35.23750771497959, 74.58914385238938],
+                {}
+            ).addTo(feature_group_eeb4914cc22449298d5c54cf7065aac1);
+        
+    
+            var icon_cabfb44085334b1c8d29543c5ebdff15 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d327794dcea44533b875eb12bd40ba2c.setIcon(icon_cabfb44085334b1c8d29543c5ebdff15);
+        
+    
+        var popup_b11306b289ab45efb39a3de07f8b6a28 = L.popup({"maxWidth": 100});
+
+        
+            var html_9fb63337482144aab34e4f5a968a636d = $(`<div id="html_9fb63337482144aab34e4f5a968a636d" style="width: 100.0%; height: 100.0%;"><img src = 'mountain.png' style='width:25px;height:25px;'> <u>8125 m</u></div>`)[0];
+            popup_b11306b289ab45efb39a3de07f8b6a28.setContent(html_9fb63337482144aab34e4f5a968a636d);
+        
+
+        marker_d327794dcea44533b875eb12bd40ba2c.bindPopup(popup_b11306b289ab45efb39a3de07f8b6a28)
+        ;
+
+        
+    
+    
+            marker_d327794dcea44533b875eb12bd40ba2c.bindTooltip(
+                `<div>
+                     <strong>Nanga Parbat</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bfcda69d97c2496d961dedfc7d3891ec = L.marker(
+                [25.740378509009297, 95.03697333121372],
+                {}
+            ).addTo(feature_group_eeb4914cc22449298d5c54cf7065aac1);
+        
+    
+            var icon_52f3c60190fd445c88af244d081533b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_bfcda69d97c2496d961dedfc7d3891ec.setIcon(icon_52f3c60190fd445c88af244d081533b5);
+        
+    
+        var popup_803b708c73164751aa3b381c2e58cdf0 = L.popup({"maxWidth": 100});
+
+        
+            var html_1e63a5dfd2164d458da402c8f8391f6a = $(`<div id="html_1e63a5dfd2164d458da402c8f8391f6a" style="width: 100.0%; height: 100.0%;"><img src = 'mountain.png' style='width:25px;height:25px;'> <u>3826 m</u></div>`)[0];
+            popup_803b708c73164751aa3b381c2e58cdf0.setContent(html_1e63a5dfd2164d458da402c8f8391f6a);
+        
+
+        marker_bfcda69d97c2496d961dedfc7d3891ec.bindPopup(popup_803b708c73164751aa3b381c2e58cdf0)
+        ;
+
+        
+    
+    
+            marker_bfcda69d97c2496d961dedfc7d3891ec.bindTooltip(
+                `<div>
+                     <strong>Saramati</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ca442f800dca42c8a0c9918c1f069ecf = L.marker(
+                [42.036282618565096, 80.1292573001057],
+                {}
+            ).addTo(feature_group_eeb4914cc22449298d5c54cf7065aac1);
+        
+    
+            var icon_c1132cd333cf458eb640dfab30e23ca4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ca442f800dca42c8a0c9918c1f069ecf.setIcon(icon_c1132cd333cf458eb640dfab30e23ca4);
+        
+    
+        var popup_5df8e87857394746b62ac63e3d5fbe2c = L.popup({"maxWidth": 100});
+
+        
+            var html_a53be50eb6ff43518f84e09c44ba4753 = $(`<div id="html_a53be50eb6ff43518f84e09c44ba4753" style="width: 100.0%; height: 100.0%;"><img src = 'mountain.png' style='width:25px;height:25px;'> <u>7439 m</u></div>`)[0];
+            popup_5df8e87857394746b62ac63e3d5fbe2c.setContent(html_a53be50eb6ff43518f84e09c44ba4753);
+        
+
+        marker_ca442f800dca42c8a0c9918c1f069ecf.bindPopup(popup_5df8e87857394746b62ac63e3d5fbe2c)
+        ;
+
+        
+    
+    
+            marker_ca442f800dca42c8a0c9918c1f069ecf.bindTooltip(
+                `<div>
+                     <strong>Jengish Chokusu</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6c7abf45b7574faa996cd29a5392fba2 = L.marker(
+                [43.8016693211931, 88.33249947223102],
+                {}
+            ).addTo(feature_group_eeb4914cc22449298d5c54cf7065aac1);
+        
+    
+            var icon_07963a74c6364445bd1f23ffaf4d2e0d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6c7abf45b7574faa996cd29a5392fba2.setIcon(icon_07963a74c6364445bd1f23ffaf4d2e0d);
+        
+    
+        var popup_bbd6935d63714f3ea098723e021c2639 = L.popup({"maxWidth": 100});
+
+        
+            var html_c39efdb0a5f246419c48abddf630b9cb = $(`<div id="html_c39efdb0a5f246419c48abddf630b9cb" style="width: 100.0%; height: 100.0%;"><img src = 'mountain.png' style='width:25px;height:25px;'> <u>5445 m</u></div>`)[0];
+            popup_bbd6935d63714f3ea098723e021c2639.setContent(html_c39efdb0a5f246419c48abddf630b9cb);
+        
+
+        marker_6c7abf45b7574faa996cd29a5392fba2.bindPopup(popup_bbd6935d63714f3ea098723e021c2639)
+        ;
+
+        
+    
+    
+            marker_6c7abf45b7574faa996cd29a5392fba2.bindTooltip(
+                `<div>
+                     <strong>Bogda Peak</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_925318298dc14cbbb4efef1c8dc1a3b2 = L.marker(
+                [-1.471790052903936, -78.82299069862759],
+                {}
+            ).addTo(feature_group_eeb4914cc22449298d5c54cf7065aac1);
+        
+    
+            var icon_545407a332114019bcd27233aac4611a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_925318298dc14cbbb4efef1c8dc1a3b2.setIcon(icon_545407a332114019bcd27233aac4611a);
+        
+    
+        var popup_b0dae538f3b34916a61251839e4cd28f = L.popup({"maxWidth": 100});
+
+        
+            var html_eddb26279cd847fdbfc5b9123c77001d = $(`<div id="html_eddb26279cd847fdbfc5b9123c77001d" style="width: 100.0%; height: 100.0%;"><img src = 'mountain.png' style='width:25px;height:25px;'> <u>6263 m</u></div>`)[0];
+            popup_b0dae538f3b34916a61251839e4cd28f.setContent(html_eddb26279cd847fdbfc5b9123c77001d);
+        
+
+        marker_925318298dc14cbbb4efef1c8dc1a3b2.bindPopup(popup_b0dae538f3b34916a61251839e4cd28f)
+        ;
+
+        
+    
+    
+            marker_925318298dc14cbbb4efef1c8dc1a3b2.bindTooltip(
+                `<div>
+                     <strong>Chimborazo</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_620138d31cec4545bdfc485d306f5d8a = L.marker(
+                [29.631669887031126, 95.05500047182431],
+                {}
+            ).addTo(feature_group_eeb4914cc22449298d5c54cf7065aac1);
+        
+    
+            var icon_58c38c3e30494078a158180c50d5b6f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_620138d31cec4545bdfc485d306f5d8a.setIcon(icon_58c38c3e30494078a158180c50d5b6f0);
+        
+    
+        var popup_cb448102930e431da7bf828ea22d72e8 = L.popup({"maxWidth": 100});
+
+        
+            var html_a635975ca4534ce49881144919ac51f1 = $(`<div id="html_a635975ca4534ce49881144919ac51f1" style="width: 100.0%; height: 100.0%;"><img src = 'mountain.png' style='width:25px;height:25px;'> <u>7782 m</u></div>`)[0];
+            popup_cb448102930e431da7bf828ea22d72e8.setContent(html_a635975ca4534ce49881144919ac51f1);
+        
+
+        marker_620138d31cec4545bdfc485d306f5d8a.bindPopup(popup_cb448102930e431da7bf828ea22d72e8)
+        ;
+
+        
+    
+    
+            marker_620138d31cec4545bdfc485d306f5d8a.bindTooltip(
+                `<div>
+                     <strong>Namcha Barwa</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_30e15b8df9124020b797f1391a8627e6 = L.marker(
+                [6.075316363734856, 116.55882428277764],
+                {}
+            ).addTo(feature_group_eeb4914cc22449298d5c54cf7065aac1);
+        
+    
+            var icon_926777311a2645fd94e071c8c79ec714 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_30e15b8df9124020b797f1391a8627e6.setIcon(icon_926777311a2645fd94e071c8c79ec714);
+        
+    
+        var popup_cca3a776d49044c5b7ca51b0e72677a5 = L.popup({"maxWidth": 100});
+
+        
+            var html_7d7f0e3e5de1496ab382c9a8457a81f0 = $(`<div id="html_7d7f0e3e5de1496ab382c9a8457a81f0" style="width: 100.0%; height: 100.0%;"><img src = 'mountain.png' style='width:25px;height:25px;'> <u>4095 m</u></div>`)[0];
+            popup_cca3a776d49044c5b7ca51b0e72677a5.setContent(html_7d7f0e3e5de1496ab382c9a8457a81f0);
+        
+
+        marker_30e15b8df9124020b797f1391a8627e6.bindPopup(popup_cca3a776d49044c5b7ca51b0e72677a5)
+        ;
+
+        
+    
+    
+            marker_30e15b8df9124020b797f1391a8627e6.bindTooltip(
+                `<div>
+                     <strong>Mount Kinabalu</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3e6f6e6730d44e4f9a35d002e63b8517 = L.marker(
+                [46.85231074351421, -121.7603235975243],
+                {}
+            ).addTo(feature_group_eeb4914cc22449298d5c54cf7065aac1);
+        
+    
+            var icon_16c807b71ca4443ca57efdd6545db1fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3e6f6e6730d44e4f9a35d002e63b8517.setIcon(icon_16c807b71ca4443ca57efdd6545db1fe);
+        
+    
+        var popup_c9af8ebfc1cb4089b2883dbd9f5a6855 = L.popup({"maxWidth": 100});
+
+        
+            var html_935be75abf294b0d87e5baed3897af5a = $(`<div id="html_935be75abf294b0d87e5baed3897af5a" style="width: 100.0%; height: 100.0%;"><img src = 'mountain.png' style='width:25px;height:25px;'> <u>4393 m</u></div>`)[0];
+            popup_c9af8ebfc1cb4089b2883dbd9f5a6855.setContent(html_935be75abf294b0d87e5baed3897af5a);
+        
+
+        marker_3e6f6e6730d44e4f9a35d002e63b8517.bindPopup(popup_c9af8ebfc1cb4089b2883dbd9f5a6855)
+        ;
+
+        
+    
+    
+            marker_3e6f6e6730d44e4f9a35d002e63b8517.bindTooltip(
+                `<div>
+                     <strong>Mount Rainier</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4051f50eca574d0d808a18db760f6d6f = L.marker(
+                [35.879990439402654, 76.51509914160567],
+                {}
+            ).addTo(feature_group_eeb4914cc22449298d5c54cf7065aac1);
+        
+    
+            var icon_fb615d867e79409793d6043933850054 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4051f50eca574d0d808a18db760f6d6f.setIcon(icon_fb615d867e79409793d6043933850054);
+        
+    
+        var popup_51daf48e34044a7690cec0aad2e9e791 = L.popup({"maxWidth": 100});
+
+        
+            var html_82aee9cc66694ac5834c86b6b0a25b58 = $(`<div id="html_82aee9cc66694ac5834c86b6b0a25b58" style="width: 100.0%; height: 100.0%;"><img src = 'mountain.png' style='width:25px;height:25px;'> <u>8611 m</u></div>`)[0];
+            popup_51daf48e34044a7690cec0aad2e9e791.setContent(html_82aee9cc66694ac5834c86b6b0a25b58);
+        
+
+        marker_4051f50eca574d0d808a18db760f6d6f.bindPopup(popup_51daf48e34044a7690cec0aad2e9e791)
+        ;
+
+        
+    
+    
+            marker_4051f50eca574d0d808a18db760f6d6f.bindTooltip(
+                `<div>
+                     <strong>K2</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7c517b32df73449480e5fb8189554f8a = L.marker(
+                [13.2361881414644, 38.36826895158488],
+                {}
+            ).addTo(feature_group_eeb4914cc22449298d5c54cf7065aac1);
+        
+    
+            var icon_46721a0e741b45a1ae6d67ea6ee9fb16 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7c517b32df73449480e5fb8189554f8a.setIcon(icon_46721a0e741b45a1ae6d67ea6ee9fb16);
+        
+    
+        var popup_225728a6a5f94f818da663c64c0e6fc6 = L.popup({"maxWidth": 100});
+
+        
+            var html_5346f773bb174821b343f7b3b14a985f = $(`<div id="html_5346f773bb174821b343f7b3b14a985f" style="width: 100.0%; height: 100.0%;"><img src = 'mountain.png' style='width:25px;height:25px;'> <u>4550 m</u></div>`)[0];
+            popup_225728a6a5f94f818da663c64c0e6fc6.setContent(html_5346f773bb174821b343f7b3b14a985f);
+        
+
+        marker_7c517b32df73449480e5fb8189554f8a.bindPopup(popup_225728a6a5f94f818da663c64c0e6fc6)
+        ;
+
+        
+    
+    
+            marker_7c517b32df73449480e5fb8189554f8a.bindTooltip(
+                `<div>
+                     <strong>Ras Dashen</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_748b5c800ec642ffa3afd6b5c5bf32c7 = L.marker(
+                [30.541108477060646, 79.97157589792036],
+                {}
+            ).addTo(feature_group_eeb4914cc22449298d5c54cf7065aac1);
+        
+    
+            var icon_ae4d7cf584874424b33c58872d8830b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_748b5c800ec642ffa3afd6b5c5bf32c7.setIcon(icon_ae4d7cf584874424b33c58872d8830b4);
+        
+    
+        var popup_b9150cebed384f729845a51990413301 = L.popup({"maxWidth": 100});
+
+        
+            var html_56b555d0d3f14870aa54044462f0e54d = $(`<div id="html_56b555d0d3f14870aa54044462f0e54d" style="width: 100.0%; height: 100.0%;"><img src = 'mountain.png' style='width:25px;height:25px;'> <u>7816 m</u></div>`)[0];
+            popup_b9150cebed384f729845a51990413301.setContent(html_56b555d0d3f14870aa54044462f0e54d);
+        
+
+        marker_748b5c800ec642ffa3afd6b5c5bf32c7.bindPopup(popup_b9150cebed384f729845a51990413301)
+        ;
+
+        
+    
+    
+            marker_748b5c800ec642ffa3afd6b5c5bf32c7.bindTooltip(
+                `<div>
+                     <strong>Nanda Devi</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7950faab03bb4b998b480a37f7ab33de = L.marker(
+                [8.540871921942513, -71.04652309620039],
+                {}
+            ).addTo(feature_group_eeb4914cc22449298d5c54cf7065aac1);
+        
+    
+            var icon_18130675ccc9439e908ed016d857e02d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7950faab03bb4b998b480a37f7ab33de.setIcon(icon_18130675ccc9439e908ed016d857e02d);
+        
+    
+        var popup_dc2185ce6bfa4ddd9f3f75c20c538c93 = L.popup({"maxWidth": 100});
+
+        
+            var html_26f3f41ce962401daca5a8633441737e = $(`<div id="html_26f3f41ce962401daca5a8633441737e" style="width: 100.0%; height: 100.0%;"><img src = 'mountain.png' style='width:25px;height:25px;'> <u>4981 m</u></div>`)[0];
+            popup_dc2185ce6bfa4ddd9f3f75c20c538c93.setContent(html_26f3f41ce962401daca5a8633441737e);
+        
+
+        marker_7950faab03bb4b998b480a37f7ab33de.bindPopup(popup_dc2185ce6bfa4ddd9f3f75c20c538c93)
+        ;
+
+        
+    
+    
+            marker_7950faab03bb4b998b480a37f7ab33de.bindTooltip(
+                `<div>
+                     <strong>Pico Bolívar</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_53dd550b40dd4488be49f4f504fb25ad = L.marker(
+                [58.91081125721173, -137.5413001608532],
+                {}
+            ).addTo(feature_group_eeb4914cc22449298d5c54cf7065aac1);
+        
+    
+            var icon_349659ce573d4aa199be33d828d2cac0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_53dd550b40dd4488be49f4f504fb25ad.setIcon(icon_349659ce573d4aa199be33d828d2cac0);
+        
+    
+        var popup_c041abda26dd4b4d92fd95edd66444c3 = L.popup({"maxWidth": 100});
+
+        
+            var html_2ce55abe30a44eb3b8fe47f6554018d6 = $(`<div id="html_2ce55abe30a44eb3b8fe47f6554018d6" style="width: 100.0%; height: 100.0%;"><img src = 'mountain.png' style='width:25px;height:25px;'> <u>4671 m</u></div>`)[0];
+            popup_c041abda26dd4b4d92fd95edd66444c3.setContent(html_2ce55abe30a44eb3b8fe47f6554018d6);
+        
+
+        marker_53dd550b40dd4488be49f4f504fb25ad.bindPopup(popup_c041abda26dd4b4d92fd95edd66444c3)
+        ;
+
+        
+    
+    
+            marker_53dd550b40dd4488be49f4f504fb25ad.bindTooltip(
+                `<div>
+                     <strong>Mount Fairweather</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5409f5bc0d3a46a9b76bc4fc8627fe10 = L.marker(
+                [23.4700055641904, 120.957452935535],
+                {}
+            ).addTo(feature_group_eeb4914cc22449298d5c54cf7065aac1);
+        
+    
+            var icon_f2279616bb5f4a2e807c032cae017eda = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_5409f5bc0d3a46a9b76bc4fc8627fe10.setIcon(icon_f2279616bb5f4a2e807c032cae017eda);
+        
+    
+        var popup_0fc6f0df7fe141d1a1122c96e4a52d3b = L.popup({"maxWidth": 100});
+
+        
+            var html_989ac1f8ca3743729876c463bab1cdcd = $(`<div id="html_989ac1f8ca3743729876c463bab1cdcd" style="width: 100.0%; height: 100.0%;"><img src = 'mountain.png' style='width:25px;height:25px;'> <u>3952 m</u></div>`)[0];
+            popup_0fc6f0df7fe141d1a1122c96e4a52d3b.setContent(html_989ac1f8ca3743729876c463bab1cdcd);
+        
+
+        marker_5409f5bc0d3a46a9b76bc4fc8627fe10.bindPopup(popup_0fc6f0df7fe141d1a1122c96e4a52d3b)
+        ;
+
+        
+    
+    
+            marker_5409f5bc0d3a46a9b76bc4fc8627fe10.bindTooltip(
+                `<div>
+                     <strong>Yushan</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3fd1557bc11549bbb4ee699f9da13527 = L.marker(
+                [0.3912182802822547, 29.86942128600692],
+                {}
+            ).addTo(feature_group_eeb4914cc22449298d5c54cf7065aac1);
+        
+    
+            var icon_e911a809272343cd9ad0adf8def18620 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3fd1557bc11549bbb4ee699f9da13527.setIcon(icon_e911a809272343cd9ad0adf8def18620);
+        
+    
+        var popup_3eb8d991b38346e9b7662a86255ad4e2 = L.popup({"maxWidth": 100});
+
+        
+            var html_11e0fbba534943229b48e6712e91a89c = $(`<div id="html_11e0fbba534943229b48e6712e91a89c" style="width: 100.0%; height: 100.0%;"><img src = 'mountain.png' style='width:25px;height:25px;'> <u>5109 m</u></div>`)[0];
+            popup_3eb8d991b38346e9b7662a86255ad4e2.setContent(html_11e0fbba534943229b48e6712e91a89c);
+        
+
+        marker_3fd1557bc11549bbb4ee699f9da13527.bindPopup(popup_3eb8d991b38346e9b7662a86255ad4e2)
+        ;
+
+        
+    
+    
+            marker_3fd1557bc11549bbb4ee699f9da13527.bindTooltip(
+                `<div>
+                     <strong>Mount Stanley</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2942b5afea1c4c3cbf64beae5400d2bb = L.marker(
+                [27.702493977068933, 88.14753600009279],
+                {}
+            ).addTo(feature_group_eeb4914cc22449298d5c54cf7065aac1);
+        
+    
+            var icon_f4a26f7381ee4411a79ea97795733a8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2942b5afea1c4c3cbf64beae5400d2bb.setIcon(icon_f4a26f7381ee4411a79ea97795733a8e);
+        
+    
+        var popup_4659f7b9037247bdad4c5a235f1cfeb9 = L.popup({"maxWidth": 100});
+
+        
+            var html_891a383c0bde4c32a93bb54ab0cd5586 = $(`<div id="html_891a383c0bde4c32a93bb54ab0cd5586" style="width: 100.0%; height: 100.0%;"><img src = 'mountain.png' style='width:25px;height:25px;'> <u>8586 m</u></div>`)[0];
+            popup_4659f7b9037247bdad4c5a235f1cfeb9.setContent(html_891a383c0bde4c32a93bb54ab0cd5586);
+        
+
+        marker_2942b5afea1c4c3cbf64beae5400d2bb.bindPopup(popup_4659f7b9037247bdad4c5a235f1cfeb9)
+        ;
+
+        
+    
+    
+            marker_2942b5afea1c4c3cbf64beae5400d2bb.bindTooltip(
+                `<div>
+                     <strong>Kanchenjunga</strong>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var layer_control_30a5ff46483a4ed2b7186c5cece321e0 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_a00596fa3de84a509c9c0e30bab57506,
+                },
+                overlays :  {
+                    "Volcanoes" : feature_group_6b54c9a26719404abb03032a126a2ff6,
+                    "Mountains" : feature_group_eeb4914cc22449298d5c54cf7065aac1,
+                },
+            };
+            L.control.layers(
+                layer_control_30a5ff46483a4ed2b7186c5cece321e0.base_layers,
+                layer_control_30a5ff46483a4ed2b7186c5cece321e0.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_b09be54e97f440b4aa5ef5dd9de55aa0);
+        
+</script>
