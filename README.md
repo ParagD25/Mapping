@@ -18,10 +18,10 @@ Popup icon specifies weather it is a <b>mountain ⛰️</b> or a <b>volcano 🌋
 
 
 - Clone this repository<br>
-`git clone https://github.com/ParagD25/mountain_&_volcano_mapping`
+`git clone https://github.com/ParagD25/mountain_volcano_mapping`
 
 - Go into the repository<br>
-`cd mountain_&_volcano_mapping`
+`cd mountain_volcano_mapping`
 
 - Remove current origin repository<br>
 `git remote remove origin`
